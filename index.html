@@ -23,7 +23,7 @@ description: "让妈妈骄傲吧github pages!"
         </div>
     </a>
     <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+        作者 {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} 发布日 {{ post.date | date: "%B %-d, %Y" }}
     </p>
 </div>
 <hr>
